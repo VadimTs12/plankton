@@ -2046,6 +2046,14 @@ button.swiper-pagination-bullet {
   }
 }
 
+@media (max-width: 450px) {
+  .social {
+    max-width: 300px;
+    position: absolute;
+    bottom: 100px;
+  }
+}
+
 @media (max-width: 92.5em) {
   [class*=__container] {
     max-width: 60.625rem;
@@ -2158,12 +2166,6 @@ button.swiper-pagination-bullet {
 
   .logo {
     max-width: 100px;
-  }
-
-  .social {
-    max-width: 300px;
-    position: absolute;
-    bottom: 100px;
   }
 
   .section-main .section__container {
