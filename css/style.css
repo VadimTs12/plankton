@@ -73,7 +73,6 @@ html,
 body {
   height: 100%;
   min-width: 320px;
-  overflow: hidden;
 }
 
 body {
@@ -135,6 +134,7 @@ h6 {
 body {
   background: #000A0B;
   color: #FFFFFF;
+  overflow: hidden;
 }
 
 .lock body {
